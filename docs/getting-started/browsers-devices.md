@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Browsers and devices
+label: 浏览器与设备
 description: Learn which browsers and devices are supported by Bootstrap.
 group: getting-started
 ---

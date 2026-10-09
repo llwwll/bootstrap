@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Migrating to v4
+label: 迁移到 v4
 group: migration
 ---
 

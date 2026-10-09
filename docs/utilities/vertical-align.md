@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Vertical alignment
+label: 垂直对齐
 group: utilities
 ---
 

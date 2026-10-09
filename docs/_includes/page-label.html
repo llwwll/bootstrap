@@ -1,0 +1,15 @@
+{% assign page_label = page.title %}
+{% if page.label %}
+  {% assign page_label = page.label %}
+{% else %}
+  {% for group in site.data.nav %}
+    {% if group.title == page.title %}
+      {% assign page_label = group.label | default: group.title %}
+    {% endif %}
+    {% for doc in group.pages %}
+      {% if doc.title == page.title %}
+        {% assign page_label = doc.label | default: doc.title %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}

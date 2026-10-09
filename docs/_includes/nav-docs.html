@@ -1,5 +1,5 @@
 <form class="bd-search hidden-sm-down">
-  <input type="text" class="form-control" id="search-input" placeholder="Search..." autocomplete="off">
+  <input type="text" class="form-control" id="search-input" placeholder="搜索…" autocomplete="off">
   <div class="dropdown-menu bd-search-results" id="search-results"></div>
 </form>
 
@@ -19,7 +19,7 @@
       {% else %}
         <a class="bd-toc-link" href="{{ site.baseurl }}/{{ group.title | downcase | replace: ' ', '-' }}/{{ link.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-'  }}">
       {% endif %}
-        {{ group.title }}
+        {{ group.label | default: group.title }}
       </a>
 
       <ul class="nav bd-sidenav">
@@ -34,7 +34,7 @@
 
           <li class="{{ active }}">
             <a href="{{ site.baseurl }}/{{ group.title | downcase | replace: ' ', '-' }}/{{ doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' }}/">
-              {{ doc.title }}
+              {{ doc.label | default: doc.title }}
             </a>
 
             {% comment %}

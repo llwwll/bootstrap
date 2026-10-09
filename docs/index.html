@@ -5,31 +5,31 @@ layout: home
 <main class="bd-masthead" id="content">
   <div class="container">
     <span class="bd-booticon outline">B</span>
-    <p class="lead">Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web.</p>
+    <p class="lead">Bootstrap 是全球最流行的 HTML、CSS 和 JS 框架，用来构建响应式、移动优先的网页项目。</p>
     <p class="lead">
-      <a href="{{ site.baseurl }}/getting-started/download/" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download Bootstrap</a>
+      <a href="{{ site.baseurl }}/getting-started/download/" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">下载 Bootstrap</a>
     </p>
-    <p class="version">Currently v{{ site.current_version }}</p>
+    <p class="version">当前版本 v{{ site.current_version }}</p>
     {% include ads.html %}
   </div>
 </main>
 
 <div class="bd-featurette">
   <div class="container">
-    <h2 class="bd-featurette-title">Easy to get started.</h2>
-    <p class="lead">Quickly include Bootstrap's CSS and JS into any project. Use your favorite package manager, download the source, or use the Bootstrap CDN.</p>
+    <h2 class="bd-featurette-title">轻松上手。</h2>
+    <p class="lead">把 Bootstrap 的 CSS 和 JS 快速加进任意项目。可以用你熟悉的包管理器、下载源码，或直接使用 Bootstrap CDN。</p>
 
     <div class="row">
       <div class="col-sm-6 mb-3">
-        <h4>Managed dependencies</h4>
-        <p>Include Bootstrap's source Sass and JavaScript files via Bower, Composer, Meteor, or npm. Package managed installs don't include documentation, but do include our Gruntfile and readme.</p>
+        <h4>用包管理器安装</h4>
+        <p>通过 Bower、Composer、Meteor 或 npm 引入 Bootstrap 的 Sass 和 JavaScript 源文件。包管理器安装不含文档，但包含 Gruntfile 和说明文件。</p>
         <p>
-          <a class="btn btn-bs btn-outline" href="{{ site.baseurl }}/getting-started/download/#package-managers">View install methods</a>
+          <a class="btn btn-bs btn-outline" href="{{ site.baseurl }}/getting-started/download/#package-managers">查看安装方式</a>
         </p>
       </div>
       <div class="col-sm-6 mb-3">
         <h4>Bootstrap CDN</h4>
-        <p>When you just need to include Bootstrap's compiled CSS and JS, use the Bootstrap CDN, free from the Max CDN folks.</p>
+        <p>如果只需要编译好的 CSS 和 JS，可以使用 MaxCDN 提供的免费 Bootstrap CDN。</p>
 {% highlight html %}
 <link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
 <script src="{{ site.cdn.js }}" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
@@ -39,60 +39,60 @@ layout: home
 
     <hr class="half-rule mt-0">
 
-    <p><strong>Looking for something else?</strong> Compiled builds of Bootstrap's CSS and JS are also available.</p>
-    <a href="{{ site.baseurl }}/getting-started/download/" class="btn btn-bs btn-outline">More download options</a>
+    <p><strong>还需要别的？</strong>也可以下载已经编译好的 CSS 和 JS。</p>
+    <a href="{{ site.baseurl }}/getting-started/download/" class="btn btn-bs btn-outline">更多下载方式</a>
   </div>
 </div>
 
 <div class="bd-featurette">
   <div class="container">
-    <h2 class="bd-featurette-title">Designed for everyone, everywhere.</h2>
-    <p class="lead">Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
+    <h2 class="bd-featurette-title">为所有人、所有场景而设计。</h2>
+    <p class="lead">Bootstrap 让前端开发更快、更简单。它适合各种水平的开发者、各种形态的设备，以及各种规模的项目。</p>
 
     <div class="row">
       <div class="col-sm-4 mb-3">
-        <img src="{{ site.baseurl }}/assets/img/sass.png" alt="Sass support" class="img-fluid">
-        <h4>Preprocessor</h4>
-        <p>Bootstrap ships with vanilla CSS, but its source code utilizes <a href="http://sass-lang.com/">Sass</a>, a popular CSS preprocessor. Quickly get started with precompiled CSS or build on the source.</p>
+        <img src="{{ site.baseurl }}/assets/img/sass.png" alt="支持 Sass" class="img-fluid">
+        <h4>预处理器</h4>
+        <p>Bootstrap 提供现成的 CSS，源码则使用流行的 CSS 预处理器 <a href="http://sass-lang.com/">Sass</a>。可以直接用编译好的 CSS，也可以在源码上继续开发。</p>
       </div>
       <div class="col-sm-4 mb-3">
-        <img src="{{ site.baseurl }}/assets/img/devices.png" alt="Responsive across devices" class="img-fluid">
-        <h4>One framework, every device.</h4>
-        <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+        <img src="{{ site.baseurl }}/assets/img/devices.png" alt="跨设备响应式" class="img-fluid">
+        <h4>一套框架，覆盖所有设备。</h4>
+        <p>Bootstrap 用同一套代码，借助 CSS 媒体查询，让网站和应用从手机、平板到桌面都能高效适配。</p>
       </div>
       <div class="col-sm-4 mb-3">
-        <img src="{{ site.baseurl }}/assets/img/components.png" alt="Components" class="img-fluid">
-        <h4>Full of features</h4>
-        <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+        <img src="{{ site.baseurl }}/assets/img/components.png" alt="组件" class="img-fluid">
+        <h4>功能齐全</h4>
+        <p>你将得到详尽的常见 HTML 元素文档、数十个自定义 HTML 和 CSS 组件，以及实用的 jQuery 插件。</p>
       </div>
     </div>
 
     <hr class="half-rule mt-0">
 
-    <p><strong>Bootstrap is open source!</strong> It's hosted, developed, and maintained on GitHub by folks like you.</p>
-    <a href="{{ site.repo }}" class="btn btn-bs btn-outline">View the GitHub project</a>
+    <p><strong>Bootstrap 是开源的！</strong>它在 GitHub 上由像你一样的人托管、开发和维护。</p>
+    <a href="{{ site.repo }}" class="btn btn-bs btn-outline">查看 GitHub 项目</a>
   </div>
 </div>
 
 <div class="bd-featurette">
   <div class="container">
-    <h2 class="bd-featurette-title">Official Bootstrap Themes.</h2>
+    <h2 class="bd-featurette-title">官方 Bootstrap 主题。</h2>
     <p class="lead">
-      Take Bootstrap to the next level with official premium themes. Each theme is its own toolkit featuring all of Bootstrap, brand new components and plugins, full docs, build tools, and more.
+      用官方高级主题把 Bootstrap 再提升一级。每个主题都是完整工具包，包含全部 Bootstrap、全新组件和插件、完整文档、构建工具等。
     </p>
 
     <p class="lead">
-      <a href="{{ site.themes }}" class="btn btn-bs btn-outline">Browse themes</a>
+      <a href="{{ site.themes }}" class="btn btn-bs btn-outline">浏览主题</a>
     </p>
 
-    <img class="img-fluid mx-auto" src="{{ site.baseurl }}/assets/img/bs-themes.png" alt="Bootstrap Themes" width="1024" height="388">
+    <img class="img-fluid mx-auto" src="{{ site.baseurl }}/assets/img/bs-themes.png" alt="Bootstrap 主题" width="1024" height="388">
   </div>
 </div>
 
 <div class="bd-featurette">
   <div class="container">
-    <h2 class="bd-featurette-title">Built with Bootstrap.</h2>
-    <p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="{{ site.baseurl }}/examples/">collection of examples</a> or by exploring some of our favorites.</p>
+    <h2 class="bd-featurette-title">用 Bootstrap 构建。</h2>
+    <p class="lead">网上有数以百万计的优秀网站在使用 Bootstrap。可以从不断扩充的<a href="{{ site.baseurl }}/examples/">示例集</a>开始，也可以先看看我们精选的作品。</p>
 
     <div class="row bd-featured-sites">
     {% for showcase in site.data.showcase %}
@@ -106,7 +106,7 @@ layout: home
 
     <hr class="half-rule">
 
-    <p>We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
-    <a href="{{ site.expo }}" class="btn btn-bs btn-outline">Explore the Expo</a>
+    <p>我们在 Bootstrap Expo 上展示了数十个用 Bootstrap 做出来的优秀项目。</p>
+    <a href="{{ site.expo }}" class="btn btn-bs btn-outline">浏览 Expo</a>
   </div>
 </div>

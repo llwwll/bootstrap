@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Badges
+label: 徽章
 description: Documentation and examples for badges, our small count and labelling component.
 group: components
 ---
