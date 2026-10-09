@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     {% include header.html %}
   </head>
   <body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
       <div class="container">
-        <span class="skiplink-text">Skip to main content</span>
+        <span class="skiplink-text">跳到主要内容</span>
       </div>
     </a>
 
@@ -25,7 +25,8 @@
           {% include nav-docs.html %}
         </div>
         <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
-          <h1 class="bd-title" id="content">{{ page.title }}</h1>
+          {% include page-label.html %}
+          <h1 class="bd-title" id="content">{{ page_label }}</h1>
           {{ content }}
         </div>
       </div>

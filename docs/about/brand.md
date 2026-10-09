@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Brand guidelines
+label: 品牌指南
 description: Documentation and examples for Bootstrap's logo and brand usage guidelines.
 group: about
 ---

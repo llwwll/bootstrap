@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Wall of browser bugs
+label: 浏览器缺陷清单
 group: browser-bugs
 ---
 

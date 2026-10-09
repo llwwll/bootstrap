@@ -44,13 +44,13 @@
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
       // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
       var $modal = $(this)
-      $modal.find('.modal-title').text('New message to ' + recipient)
+      $modal.find('.modal-title').text('发给 ' + recipient + ' 的新消息')
       $modal.find('.modal-body input').val(recipient)
     })
 
     // Insert copy to clipboard button before .highlight
     $('.highlight').each(function () {
-      var btnHtml = '<div class="bd-clipboard"><span class="btn-clipboard" title="Copy to clipboard">Copy</span></div>'
+      var btnHtml = '<div class="bd-clipboard"><span class="btn-clipboard" title="复制到剪贴板">复制</span></div>'
       $(this).before(btnHtml)
       $('.btn-clipboard').tooltip()
     })
@@ -63,23 +63,23 @@
 
     clipboard.on('success', function (e) {
       $(e.trigger)
-        .attr('title', 'Copied!')
+        .attr('title', '已复制')
         .tooltip('_fixTitle')
         .tooltip('show')
-        .attr('title', 'Copy to clipboard')
+        .attr('title', '复制到剪贴板')
         .tooltip('_fixTitle')
 
       e.clearSelection()
     })
 
     clipboard.on('error', function (e) {
-      var fallbackMsg = /Mac/i.test(navigator.userAgent) ? 'Press \u2318 to copy' : 'Press Ctrl-C to copy'
+      var fallbackMsg = /Mac/i.test(navigator.userAgent) ? '按 \u2318 复制' : '按 Ctrl-C 复制'
 
       $(e.trigger)
         .attr('title', fallbackMsg)
         .tooltip('_fixTitle')
         .tooltip('show')
-        .attr('title', 'Copy to clipboard')
+        .attr('title', '复制到剪贴板')
         .tooltip('_fixTitle')
     })
 

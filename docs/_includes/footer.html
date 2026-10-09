@@ -3,11 +3,11 @@
     <ul class="bd-footer-links">
       <li><a href="{{ site.repo }}">GitHub</a></li>
       <li><a href="https://twitter.com/getbootstrap">Twitter</a></li>
-      <li><a href="{{ site.baseurl }}/examples/">Examples</a></li>
-      <li><a href="{{ site.baseurl }}/about/history/">About</a></li>
+      <li><a href="{{ site.baseurl }}/examples/">示例</a></li>
+      <li><a href="{{ site.baseurl }}/about/history/">关于</a></li>
     </ul>
-    <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
-    <p>Currently v{{ site.current_version }}. Code licensed <a rel="license" href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, docs <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
+    <p>由 <a href="https://twitter.com/mdo" target="_blank">@mdo</a> 和 <a href="https://twitter.com/fat" target="_blank">@fat</a> 用满满的热爱设计并构建。由<a href="https://github.com/orgs/twbs/people">核心团队</a>维护，并感谢<a href="https://github.com/twbs/bootstrap/graphs/contributors">各位贡献者</a>。</p>
+    <p>当前版本 v{{ site.current_version }}。代码采用 <a rel="license" href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a> 许可，文档采用 <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>。</p>
   </div>
 </footer>
 
@@ -42,7 +42,7 @@ SimpleJekyllSearch.init({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('search-results'),
   searchResultTemplate: '<a class="dropdown-item" href="{url}">{title}</a>',
-  noResultsText: '<div class="dropdown-item no-results">Sorry, there are no results for that search.</div>',
+  noResultsText: '<div class="dropdown-item no-results">抱歉，没有找到与该搜索匹配的结果。</div>',
   json: '{{ site.baseurl }}/search.json'
 })
 </script>

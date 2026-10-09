@@ -1,72 +1,132 @@
 - title: Getting started
+  label: 入门
   pages:
     - title: Introduction
+      label: 介绍
     - title: Download
+      label: 下载
     - title: Contents
+      label: 目录
     - title: Browsers & devices
+      label: 浏览器与设备
     - title: JavaScript
+      label: JavaScript
     - title: Options
+      label: 选项
     - title: Flexbox
+      label: Flexbox
     - title: Build tools
+      label: 构建工具
     - title: Best practices
+      label: 最佳实践
     - title: Accessibility
+      label: 无障碍
 
 - title: Layout
+  label: 布局
   pages:
     - title: Overview
+      label: 概览
     - title: Grid
+      label: 栅格
     - title: Flexbox grid
+      label: Flexbox 栅格
     - title: Media object
+      label: 媒体对象
     - title: Responsive utilities
+      label: 响应式工具
 
 - title: Content
+  label: 内容
   pages:
     - title: Reboot
+      label: 重置
     - title: Typography
+      label: 排版
     - title: Code
+      label: 代码
     - title: Images
+      label: 图片
     - title: Tables
+      label: 表格
     - title: Figures
+      label: 图文
 
 - title: Components
+  label: 组件
   pages:
     - title: Alerts
+      label: 警告框
     - title: Badge
+      label: 徽章
     - title: Breadcrumb
+      label: 面包屑
     - title: Buttons
+      label: 按钮
     - title: Button group
+      label: 按钮组
     - title: Card
+      label: 卡片
     - title: Carousel
+      label: 轮播
     - title: Collapse
+      label: 折叠
     - title: Dropdowns
+      label: 下拉菜单
     - title: Forms
+      label: 表单
     - title: Input group
+      label: 输入组
     - title: Jumbotron
+      label: 巨幕
     - title: List group
+      label: 列表组
     - title: Modal
+      label: 模态框
     - title: Navs
+      label: 导航
     - title: Navbar
+      label: 导航栏
     - title: Pagination
+      label: 分页
     - title: Popovers
+      label: 弹出框
     - title: Progress
+      label: 进度条
     - title: Scrollspy
+      label: 滚动监听
     - title: Tooltips
+      label: 工具提示
 
 - title: Utilities
+  label: 工具类
   pages:
     - title: Borders
+      label: 边框
     - title: Clearfix
+      label: 清除浮动
     - title: Close icon
+      label: 关闭图标
     - title: Colors
+      label: 颜色
     - title: Display property
+      label: 显示属性
     - title: Image replacement
+      label: 图片替换
     - title: Invisible content
+      label: 隐藏内容
     - title: Responsive helpers
+      label: 响应式辅助
     - title: Screenreaders
+      label: 屏幕阅读器
     - title: Sizing and positioning
+      label: 尺寸与定位
     - title: Spacing
+      label: 间距
     - title: Typography
+      label: 排版
     - title: Vertical align
+      label: 垂直对齐
 
 # - title: Extend
 #   pages:
@@ -74,11 +134,18 @@
 #     - title: Icon fonts
 
 - title: About
+  label: 关于
   pages:
     - title: History
+      label: 历史
     - title: Team
+      label: 团队
     - title: Brand
+      label: 品牌
     - title: License
+      label: 许可
     - title: Translations
+      label: 翻译
 
 - title: Migration
+  label: 迁移
